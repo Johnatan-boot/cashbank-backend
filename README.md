@@ -1,6 +1,6 @@
+<img width="1366" height="768" alt="Captura de tela 2026-04-14 220012" src="https://github.com/user-attachments/assets/2e13ea55-24d0-4f28-88d6-a11a32e84e55" />
 # 🏦 CashBank API - Backend Architecture
 
-![Backend Banner](https://via.placeholder.com/1200x500/1e293b/ffffff?text=CashBank+API+-+Backend+Layer)
 
 > 🚀 Backend do sistema CashBank, projetado com foco em **Arquitetura Escalável**, **Boas Práticas de API** e **Simulação de ambiente enterprise**.
 
