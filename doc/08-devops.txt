@@ -1,0 +1,38 @@
+# CASHBANK - DEVOPS
+
+## Objetivo
+
+Garantir deploy, escalabilidade e disponibilidade do sistema.
+
+---
+
+## Infraestrutura
+
+- Backend em Node.js
+- Frontend Angular buildado
+- Banco MySQL
+- Redis cache
+
+---
+
+## CI/CD
+
+- Build automático
+- Testes antes de deploy
+- Versionamento de releases
+
+---
+
+## Deploy
+
+- API hospedada em servidor cloud
+- Frontend em CDN ou hosting estático
+- Banco gerenciado com backups
+
+---
+
+## Monitoramento
+
+- Logs de erro
+- Logs de transações
+- Monitoramento de performance

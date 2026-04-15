@@ -1,0 +1,142 @@
+CASHBANK/
+│
+├── doc/
+│   ├── 01-product.txt
+│   ├── 02-requisitos.txt
+│   ├── 03-arquitetura.txt
+│   ├── 04-tech-design.txt
+│   ├── 05-backend.txt
+│   ├── 06-frontend.txt
+│   ├── 07-testes.txt
+│   ├── 08-devops.txt
+│   ├── 09-observabilidade.txt
+│   └── 10-decision-log.txt
+
+
+
+
+CASHBANK/
+│
+├── doc/                          # Documentação (você já criou)
+│
+├── frontend/                    # Angular 18+
+│
+├── backend/                     # Node.js + Fastify
+│
+├── infra/                       # Docker, deploy, configs
+│
+├── shared/                      # contratos compartilhados
+│
+├── scripts/                     # automações
+│
+└── README.md
+
+
+
+frontend/
+│
+├── src/
+│   ├── app/
+│   │   ├── core/               # serviços globais
+│   │   ├── shared/             # componentes reutilizáveis
+│   │   ├── modules/
+│   │   │   ├── auth/
+│   │   │   ├── dashboard/
+│   │   │   ├── accounts/
+│   │   │   ├── transactions/
+│   │   │   └── admin/
+│   │   ├── state/              # NgRx store
+│   │   └── app.routes.ts
+│   │
+│   ├── assets/
+│   ├── environments/
+│   └── styles/
+│
+├── angular.json
+└── package.json
+
+
+backend/
+│
+├── src/
+│   ├── domain/                # regras de negócio
+│   │   ├── auth/
+│   │   ├── accounts/
+│   │   ├── transactions/
+│   │
+│   ├── application/          # casos de uso
+│   │   ├── services/
+│   │   ├── use-cases/
+│   │
+│   ├── infrastructure/       # banco, redis, etc
+│   │   ├── database/
+│   │   ├── cache/
+│   │   ├── logger/
+│   │
+│   ├── interfaces/           # controllers (API)
+│   │   ├── http/
+│   │   └── routes/
+│   │
+│   ├── shared/
+│   │   ├── errors/
+│   │   ├── utils/
+│   │
+│   └── server.ts
+│
+├── package.json
+└── tsconfig.json
+
+
+
+shared/
+│
+├── dtos/
+│   ├── user.dto.ts
+│   ├── transaction.dto.ts
+│
+├── interfaces/
+│   ├── auth.interface.ts
+│   ├── account.interface.ts
+│
+└── enums/
+
+
+
+infra/
+│
+├── docker/
+│   ├── docker-compose.yml
+│   ├── backend.Dockerfile
+│   └── frontend.Dockerfile
+│
+├── database/
+│   ├── init.sql
+│
+└── nginx/
+
+
+
+🧠 COMO ESSA ESTRUTURA FUNCIONA (IMPORTANTE)
+🔵 Frontend
+Angular modular
+separado por domínio
+estado centralizado (NgRx)
+🟢 Backend
+Clean Architecture
+separação forte de camadas
+domínio isolado da infraestrutura
+🟣 Shared
+contratos únicos
+evita inconsistência entre frontend e backend
+🔴 Infra
+simula produção real
+pronto pra deploy
+🏦 POR QUE ISSO É NÍVEL BANCO (BTG)
+
+Você está aplicando:
+
+✔ DDD (Domain Driven Design)
+✔ Clean Architecture
+✔ Separação de responsabilidades
+✔ Escalabilidade real
+✔ Estrutura de micro-sistema preparado

@@ -1,0 +1,45 @@
+# CASHBANK - FRONTEND
+
+## Tecnologia
+- Angular 18+
+- TypeScript (strict mode)
+- NgRx (state management)
+- RxJS
+- SCSS + BEM
+- Design System
+
+---
+
+## Arquitetura Frontend
+
+- Core Module (serviços globais)
+- Shared Module (componentes reutilizáveis)
+- Feature Modules (Auth, Dashboard, Financeiro)
+- State Management (NgRx)
+
+---
+
+## Módulos
+
+- Auth Module (login e registro)
+- Dashboard Module (visão geral)
+- Accounts Module (conta do usuário)
+- Transactions Module (transferências e extrato)
+
+---
+
+## Estado da Aplicação
+
+- Usuário logado
+- Saldo da conta
+- Histórico de transações
+- Sessão autenticada
+
+---
+
+## Regras
+
+- Componentes reutilizáveis
+- Separação de UI e lógica
+- Estado centralizado no NgRx
+- Consumo de API via services

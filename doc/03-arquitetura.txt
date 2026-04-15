@@ -1,0 +1,35 @@
+# CASHBANK - ARQUITETURA
+
+## Tipo de Arquitetura
+- Clean Architecture
+- Domain-Driven Design (DDD-lite)
+- Arquitetura modular por domínio
+
+---
+
+## Domínios do Sistema
+
+- Auth (autenticação e usuários)
+- Accounts (contas bancárias)
+- Transactions (operações financeiras)
+- Dashboard (visão geral do usuário)
+- Admin (auditoria e controle)
+
+---
+
+## Camadas
+
+- Presentation Layer (Angular 18+)
+- Application Layer (Services / Use Cases)
+- Domain Layer (Regras de negócio)
+- Infrastructure Layer (Banco de dados e APIs)
+- Integration Layer (IA, logs e serviços externos)
+
+---
+
+## Comunicação
+
+Frontend (Angular)
+→ API REST (Node.js)
+→ Services
+→ Database (MySQL / Redis)

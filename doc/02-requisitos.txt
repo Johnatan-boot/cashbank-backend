@@ -1,0 +1,32 @@
+# CASHBANK - REQUISITOS
+
+## Requisitos Funcionais (RF)
+
+RF01 - Criar conta de usuário
+RF02 - Login e autenticação
+RF03 - Visualizar saldo da conta
+RF04 - Visualizar extrato financeiro
+RF05 - Realizar transferência entre contas
+RF06 - Registrar todas as transações
+RF07 - Consultar histórico de movimentações
+
+---
+
+## Requisitos Não Funcionais (RNF)
+
+RNF01 - Sistema deve ser seguro (JWT + validação de sessão)
+RNF02 - API deve responder com baixa latência
+RNF03 - Código deve ser escalável e modular
+RNF04 - Sistema deve suportar crescimento de usuários
+RNF05 - Logs devem ser registrados para auditoria
+RNF06 - Arquitetura deve permitir evolução sem refatoração total
+
+---
+
+## Regras de Negócio
+
+RN01 - Toda transação deve ser registrada
+RN02 - Não permitir saldo negativo
+RN03 - Toda requisição deve ser validada
+RN04 - Usuário só acessa dados da própria conta
+RN05 - Transferências devem ser atômicas (consistência)

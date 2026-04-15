@@ -1,0 +1,36 @@
+# CASHBANK - OBSERVABILIDADE
+
+## Objetivo
+Monitorar o sistema em produção.
+
+---
+
+## Logs
+
+- Login de usuários
+- Transações financeiras
+- Erros de API
+- Acessos sensíveis
+
+---
+
+## Métricas
+
+- Tempo de resposta da API
+- Taxa de erro
+- Volume de transações
+
+---
+
+## Alertas
+
+- Falha em transações
+- Erro em autenticação
+- Queda de performance
+
+---
+
+## Auditoria
+
+- Histórico de ações do usuário
+- Rastreamento de operações financeiras

@@ -1,0 +1,26 @@
+# CASHBANK - TECH DESIGN
+
+## Fluxo de Login
+Usuário → Frontend → API Auth → Validação → JWT → Dashboard
+
+---
+
+## Fluxo de Transação
+Usuário → Frontend → API Transactions → Validação de saldo → Registro → Persistência → Histórico
+
+---
+
+## Fluxo de Dados
+Frontend consome APIs REST
+Estado gerenciado via NgRx
+Atualização reativa de dados
+
+---
+
+## Contratos de API
+- /auth/login
+- /auth/register
+- /accounts
+- /transactions
+- /balance
+- /history

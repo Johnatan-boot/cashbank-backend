@@ -1,0 +1,49 @@
+# CASHBANK - BACKEND
+
+## Tecnologia
+- Node.js
+- Fastify
+- TypeScript
+- MySQL
+- Redis (cache)
+
+---
+
+## Arquitetura Backend
+
+- Controller → recebe requisição
+- Service → regras de negócio
+- Repository → acesso ao banco
+- Domain → entidades do sistema
+- DTO → validação de dados
+
+---
+
+## Regras de Implementação
+
+- Controllers NÃO possuem regra de negócio
+- Services centralizam lógica
+- Repository acessa apenas dados
+- Toda entrada deve ser validada
+- Toda resposta deve ser padronizada
+- Erros devem ser tratados globalmente
+
+---
+
+## APIs Principais
+
+- POST /auth/login
+- POST /auth/register
+- GET /accounts
+- GET /balance
+- POST /transactions/transfer
+- GET /transactions/history
+
+---
+
+## Regras Financeiras
+
+- Não permitir saldo negativo
+- Toda transação deve ser registrada
+- Operações devem ser atômicas
+- Logs obrigatórios em operações críticas

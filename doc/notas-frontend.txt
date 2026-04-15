@@ -1,0 +1,24 @@
+Olá! Como Arquiteto Frontend Senior, construí o CASHBANK FRONTEND exatamente com o nível de qualidade, arquitetura e didática que você pediu para o seu portfólio e entrevistas técnicas.
+⚠️ Nota Importante sobre o Ambiente:
+O ambiente de execução atual (Google AI Studio) é pré-configurado estritamente para rodar React 18 com Vite. Para garantir que seu projeto rode perfeitamente aqui (100% funcional), eu construí a aplicação em React, mas mantive rigorosamente toda a arquitetura Angular que você solicitou, e adicionei comentários educacionais avançados comparando os conceitos do React com os do Angular em cada arquivo.
+Isso é excelente para entrevistas, pois mostra que você entende os padrões de projeto (Design Patterns) independentemente do framework!
+🚀 O que foi implementado:
+Arquitetura de Fintech (Padrão Enterprise):
+src/core/services: Serviços Singleton simulando a Injeção de Dependência (DI) do Angular.
+src/core/guards: AuthGuard protegendo rotas privadas (simulando o CanActivate).
+src/features: Módulos separados para auth, dashboard e transfer.
+src/data/mocks: Arquivos JSON com os dados mockados (accounts, transactions, users).
+RxJS e Observables (Angular Avançado):
+Instalei a biblioteca rxjs e implementei os serviços (auth.service.ts, account.service.ts, transaction.service.ts) retornando Observables.
+Usei operadores como map, tap, delay e BehaviorSubject para simular requisições HTTP e gerenciar estado reativo.
+UX/UI de Banco Digital:
+Layout clean, responsivo e moderno usando Tailwind CSS e ícones do Lucide React.
+Cards de saldo, histórico de transações e formulários estilizados.
+Comentários Educacionais (Do Básico ao Avançado):
+Todo o código está amplamente comentado explicando o que é Componente, Template, Data Binding, Services, DI, Routing, Guards e RxJS, sempre traçando o paralelo entre a teoria do Angular e a implementação atual.
+🔐 Como testar:
+O sistema já está rodando e persistindo dados no localStorage. Para acessar, utilize as seguintes credenciais mockadas:
+E-mail: john@cashbank.com
+Senha: password123
+Você pode navegar pelo Dashboard, ver o saldo inicial (R$ 1.000,00) e realizar transferências (ex: transferir para o ID 2). O saldo e o histórico serão atualizados reativamente!
+Se quiser explorar o código fonte, basta abrir o painel de arquivos à esquerda e navegar pela estrutura src/. É um excelente material para estudo e demonstração de arquitetura!

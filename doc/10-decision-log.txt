@@ -1,0 +1,26 @@
+# CASHBANK - DECISION LOG
+
+## Decisões Arquiteturais
+
+- Uso de Clean Architecture para escalabilidade
+- Separação por domínio (DDD-lite)
+- Angular 18+ para frontend moderno
+- Node.js + Fastify para alta performance
+
+---
+
+## Decisões Técnicas
+
+- NgRx para controle de estado global
+- MySQL para consistência transacional
+- Redis para cache de performance
+- JWT para autenticação
+
+---
+
+## Motivos das escolhas
+
+- Escalabilidade
+- Manutenção futura
+- Padrões de mercado (bancos e fintechs)
+- Alta performance e segurança

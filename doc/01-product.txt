@@ -1,0 +1,27 @@
+# CASHBANK - PRODUCT DEFINITION
+
+## Visão
+O CASHBANK é uma plataforma de internet banking digital que simula um sistema financeiro moderno, inspirado em bancos digitais e fintechs.
+
+## Problema
+Usuários precisam de uma forma segura, simples e centralizada para gerenciar suas finanças digitais.
+
+## Solução
+Uma plataforma que permite:
+- Gerenciamento de contas bancárias
+- Visualização de saldo e extrato em tempo real
+- Realização de transações financeiras
+- Histórico completo de movimentações
+
+## Objetivo do Produto
+Simular um sistema bancário real com foco em:
+- Escalabilidade
+- Segurança
+- Experiência do usuário
+- Arquitetura de software moderna
+
+## Público-alvo
+Usuários digitais que utilizam serviços financeiros online.
+
+## Diferencial
+Projeto com arquitetura inspirada em sistemas enterprise (bancos e fintechs), com separação clara de domínios e foco em boas práticas de engenharia de software.

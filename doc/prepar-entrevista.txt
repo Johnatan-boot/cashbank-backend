@@ -1,0 +1,142 @@
+MISSÕES E VALORES DA BTG PACTUAL
+Nossos valores consistem em agir com integridade, responsabilidade, simplicidade, 
+inconformismo e dedicação, sempre com olhar sustentável e boas práticas ESG
+
+CULTURA 
+Nossa cultura é centrada agilidade, foco no cliente, excelência, autonomia e 
+visão de longo prazo.e o espírito empreendedor estimulam a busca por soluções 
+inovadoras aliada à rigorosa análise de riscos. Além disso, nos colocamos no lugar 
+do cliente para entender seus desafios.
+
+
+
+
+💥 PITCH PRONTO (USE ISSO NA ENTREVISTA)
+
+“Sou desenvolvedor com foco em construção de aplicações modernas e escaláveis, com experiência prática em frontend e backend.
+Tenho trabalhado em projetos próprios como o Cashbank, onde desenvolvi uma arquitetura completa de autenticação, contas e transações simulando um sistema financeiro real.
+
+Também desenvolvi projetos como a Confeitaria do Jony e a Mastercode, onde apliquei conceitos de interface, estruturação de sistemas e experiência de usuário.
+
+Atualmente estou ganhando experiência prática na Kingstar, onde venho evoluindo minha capacidade de desenvolvimento em cenários reais.
+
+Meu foco é crescer como desenvolvedor de produtos complexos, especialmente em sistemas financeiros e arquiteturas escaláveis com Angular e Node.”
+
+❓ “Você já trabalhou em grandes empresas?”
+
+💬 RESPOSTA IDEAL:
+
+“Minha experiência profissional até aqui é focada em projetos reais de desenvolvimento 
+e evolução prática de sistemas.Tenho trabalhado em projetos próprios como a Mastercode e 
+Confeitaria do Jony, onde simulo cenários reais de produto, e atualmente estou ganhando 
+experiência prática na Kingstar, aplicando lógica de sistemas, estruturação e desenvolvimento 
+de aplicações.Além disso, venho construindo um projeto mais robusto de backend chamado 
+Cashbank, que simula uma fintech com autenticação, contas e transações.”
+
+
+❓ 4. “Você liderou projetos?”
+
+💬 RESPOSTA FORTE:
+
+“Sim, nos meus projetos pessoais eu atuei como responsável pela arquitetura e implementação.
+No projeto Cashbank, por exemplo, eu estruturei a autenticação, fluxo de contas e transações, 
+definindo como os módulos se comunicam.Então mesmo sendo projetos individuais, eu assumi o 
+papel de arquiteto e desenvolvedor full cycle.”
+
+
+❓ 5. “Você terminou faculdade?”
+
+💬 RESPOSTA SEGURA:
+
+Se NÃO:
+
+“Estou em formação contínua e foco muito em prática, construindo projetos reais paralelamente 
+aos estudos para acelerar minha evolução técnica.”
+
+
+❓ 6. “Quanto tempo de experiência você tem?”
+
+💬 RESPOSTA PROFISSIONAL:
+
+“Minha experiência é baseada em projetos práticos e evolução contínua como desenvolvedor.
+Tenho experiência aplicada em desenvolvimento frontend e backend através de projetos próprios 
+e atividades profissionais atuais, com foco em construção de sistemas completos.”
+
+
+
+🧠 “Como funciona seu sistema?”
+
+Resposta simples:
+
+Tenho um backend em Node.js com Fastify.
+Usuário autentica via JWT.
+Cada usuário tem uma conta.
+As contas podem realizar transferências entre si.
+As transações são armazenadas em memória simulando um banco.
+
+==============================================================
+
+🧠 “Como funciona a transferência?”
+
+O sistema valida conta de origem via userId do token,
+encontra a conta de destino pelo accountId,
+valida saldo,
+debita e credita os valores
+e registra a transação.
+
+===========================================================
+
+🧠 “Por que separou userId e accountId?”
+
+Porque usuário representa autenticação e conta representa domínio financeiro.
+
+===========================================================================
+
+
+🔥 VOCÊ VAI SE VENDER COMO:
+
+“Frontend developer com forte base em arquitetura de aplicações financeiras e experiência prática em sistemas com autenticação, contas e transações.”
+
+
+==================================================================================
+🧠 7. COMO RESPONDER AS PARTES DIFÍCEIS
+❓ NgRx / Signals
+
+💬 resposta ideal:
+
+“Já tenho experiência com estado via services e RxJS. Entendo NgRx como uma evolução para gerenciamento global previsível de estado e já estudei conceitos de store, actions e reducers.”
+
+====================================================================================
+❓ Micro frontend
+
+💬 resposta:
+
+“Conheço o conceito de dividir aplicações em módulos independentes que podem ser desenvolvidos e deployados separadamente, útil para sistemas grandes e escaláveis.”
+
+=================================================================================
+❓ Jenkins
+
+💬 resposta:
+
+“Entendo CI/CD como automação de build, testes e deploy, garantindo qualidade contínua do código.”
+
+
+=================================================================
+❓ Testes
+
+💬 resposta:
+
+“Tenho conhecimento de testes unitários para validação de lógica e testes E2E para fluxos completos do usuário.”
+
+
+
+
+❓ Component, Service e Module
+
+💬 RESPOSTA IDEAL:
+
+“No Angular, um Component é responsável pela interface do usuário, ou seja, a parte visual e interação com o usuário.”
+
+“O Service é responsável pela lógica de negócio e comunicação com APIs, como por exemplo buscar dados ou processar regras.”
+
+“Já o Module é uma forma de organizar a aplicação em blocos funcionais, agrupando components e services relacionados.”

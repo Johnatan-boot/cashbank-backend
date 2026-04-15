@@ -1,0 +1,32 @@
+# CASHBANK - TESTES
+
+## Estratégia
+
+- Testes unitários obrigatórios
+- Testes de serviços e regras de negócio
+- Testes de componentes no frontend
+- Testes de APIs no backend
+
+---
+
+## Backend
+
+- Testar services (regras financeiras)
+- Testar validações de transação
+- Testar autenticação
+
+---
+
+## Frontend
+
+- Testar componentes Angular
+- Testar fluxos de usuário
+- Testar estados do NgRx
+
+---
+
+## Ferramentas
+
+- Karma
+- Jasmine
+- Jest (backend opcional)
